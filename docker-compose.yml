@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  p110-mqtt-exporter:
+    build: .
+    image: p110-mqtt-exporter
+    container_name: p110-mqtt-exporter
+    env_file: variables.env
